@@ -1,0 +1,36 @@
+body{
+    margin : 0; /* No margin */
+    
+}
+header{
+    display: flex;
+    background-color: #8ec490; /* Green background */
+    color: white; /* White text */
+    margin: 0; /* No margin */
+    padding: 20px; /* Padding around the header */
+    font: bold 24px Arial, sans-serif; /* Bold font, 24px size, Arial or sans-serif */
+    justify-content: space-between; /* Space between items */
+    font-family: dancing script, cursive;
+}
+.nav{
+    display:flex; /* Flexbox for navigation */
+    gap: 50px;
+    list-style: none; /* No bullet points */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+    justify-content: flex-end; /* Align items to the right */
+}
+#face{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    
+}
